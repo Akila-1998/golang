@@ -1,0 +1,11 @@
+package greeting
+
+import (
+	"fmt"
+)
+
+func Hello(name string) string{
+	message := fmt.Sprintf(("Hi, %v. Welcome!",naname))
+
+	return message
+}
